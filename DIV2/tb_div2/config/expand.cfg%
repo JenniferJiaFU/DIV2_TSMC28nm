@@ -1,0 +1,13 @@
+//Revision 2
+config tb_div2;
+design DIV2.tb_div2:schematic;
+liblist mylib;
+
+viewlist ahdl, schematic, spectre, veriloga, psipce, dspf, calibre;
+stoplist spectre;
+
+
+cell DIV2.cmos_div2_layout binding :calibre;
+
+
+endconfig
